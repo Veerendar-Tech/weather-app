@@ -19,7 +19,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   late Future<Map<String,dynamic>> weather;
   Future<Map<String, dynamic>> getCurrentWeather() async {
     try {
-      String cityName = 'Londonmnsrvf';
+      String cityName = 'London';
 
       final res = await http.get(
         Uri.parse(
